@@ -1,0 +1,847 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+    <link rel="stylesheet" href="../css/menustyles.css" />
+
+    <!---box icons--->
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <!---google fonts--->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Forum&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+    <!----header--->
+    <header>
+        <a href="#" class="logo"><i class='bx bxs-bowl-hot'></i>Rommel and Grace Bistro</a>
+
+        <ul class="navlist">
+            <li><a href="../html/home.html">Home</a></li>
+            <li><a href="../html/about.html">About Us</a></li>
+            <li><a href="../html/home.html" class="active">Menu</a></li>
+            <li><a href="../html/home.html">Contact Us</a></li>
+            <li><a href="../../index.html" id="logout-link">Logout</a></li>
+        </ul>
+
+        <div class="nav-icons">
+            <a href="#"><i class='bx bx-search'></i></a>
+            <a href="#"><i class='bx bx-cart'></i></a>
+            <div class='bx bx-menu' id="menu-icon"></div>
+        </div>
+    </header>
+
+    <!-- Menu Section-->
+    <section class="section menu" aria-label="combined-menu-label" id="combined-menu">
+        <div class="container">
+            <div class="section-title-wrapper">
+                <h2 class="headline-1 section-title text-center">Menu</h2>
+            </div>
+            <!-- Batangas Lomi -->
+            <div class="menu-columns">
+                <div class="section-title-wrapper">
+                    <h3 class="headline-2 section-title text-center">Batangas Lomi</h3>
+                </div>
+                <ul class="menu-column">
+                    <li>
+                        <div class="menu-card hover:card">
+                            <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                                <img src="../menu/lomi-1.jpg" width="100" height="100" loading="lazy" alt="Batangas Lomi" class="img-cover">
+                            </figure>
+                            <div>
+                                <div class="title-wrapper">
+                                    <h3 class="title-3">
+                                        <a href="#" class="card-title">Batangas Lomi</a>
+                                    </h3>
+                                    <span class="badge label-1">Best Seller</span>
+                                    <span class="span title-2">₱90.00</span>
+                                </div>
+                                <p class="card-text label-1">
+                                    Thick egg noodles, pork slices, liver, chicharrón, vegetables, savory broth.&ensp;
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="menu-card hover:card">
+                            <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                                <img src="../menu/lomi-2.jpg" width="100" height="100" loading="lazy" alt="Con Lumpia" class="img-cover">
+                            </figure>
+                            <div>
+                                <div class="title-wrapper">
+                                    <h3 class="title-3">
+                                        <a href="#" class="card-title">Con Lumpia</a>
+                                    </h3>
+                                    <span class="span title-2">₱180.00</span>
+                                </div>
+                                <p class="card-text label-1">
+                                    Thick egg noodles, pork slices, <b>Lumpia, </b>liver, chicharrón, vegetables, broth.
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+                <!-- Right Side -->
+                <ul class="menu-column">
+                    <li>
+                        <div class="menu-card hover:card">
+                            <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                                <img src="../menu/lomi-3.jpg" width="100" height="100" loading="lazy" alt="Con Porkchop" class="img-cover">
+                            </figure>
+                            <div>
+                                <div class="title-wrapper">
+                                    <h3 class="title-3">
+                                        <a href="#" class="card-title">Con Porkchop</a>
+                                    </h3>
+                                    <span class="span title-2">₱180.00</span>
+                                </div>
+                                <p class="card-text label-1">
+                                    Thick egg noodles, pork slices, <b>Pork Chop, </b>liver, chicharrón, broth.
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="menu-card hover:card">
+                            <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                                <img src="../menu/lomi-4.jpg" width="100" height="100" loading="lazy" alt="Con Sisig" class="img-cover">
+                            </figure>
+                            <div>
+                                <div class="title-wrapper">
+                                    <h3 class="title-3">
+                                        <a href="#" class="card-title">Con Sisig</a>
+                                    </h3>
+                                    <span class="span title-2">₱180.00</span>
+                                </div>
+                                <p class="card-text label-1">
+                                    Thick egg noodles, pork slices, <b>Sisig, </b>liver, chicharrón, broth<a class="blank-card-text">dadada</a>
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <!-- Rice Meal Section -->
+            <div class="menu-columns">
+                <div class="section-title-wrapper">
+                    <h3 class="headline-2 section-title text-center">Rice Meal &ensp; &emsp;&ensp;</h3>
+                </div>
+                <ul class="menu-column">
+                    <li>
+                        <div class="menu-card hover:card">
+                            <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                                <img src="../menu/pares.jpg" width="100" height="100" loading="lazy" alt="Beef Pares" class="img-cover">
+                            </figure>
+                            <div>
+                                <div class="title-wrapper">
+                                    <h3 class="title-3">
+                                        <a href="#" class="card-title">Beef Pares</a>
+                                    </h3>
+                                    <span class="badge label-1">Best Seller</span>
+                                    <span class="span title-2">₱130.00</span>
+                                </div>
+                                <p class="card-text label-1">
+                                    Simmered Tender beef , with garlic fried rice.<a class="blank-card-text">wasdwasdwasdwasdwasdwasd</a>
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="menu-card hover:card">
+                            <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                                <img src="../menu/liemposilog.jpg" width="100" height="100" loading="lazy" alt="Liemposilog" class="img-cover">
+                            </figure>
+                            <div>
+                                <div class="title-wrapper">
+                                    <h3 class="title-3">
+                                        <a href="#" class="card-title">Liemposilog</a>
+                                    </h3>
+                                    <span class="span title-2">₱130.00</span>
+                                </div>
+                                <p class="card-text label-1">
+                                    Grilled pork belly, garlic fried rice, fried egg.&ensp; &emsp;&ensp; &emsp;&ensp; &emsp;&ensp; &emsp;&ensp;
+                                    &emsp;&ensp; &emsp;&ensp; &emsp;&ensp;
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="menu-card hover:card">
+
+                            <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                                <img src="../menu/tonkatsilog.jpg" width="100" height="100" loading="lazy" alt="Tonkatsilog"
+                                     class="img-cover">
+                            </figure>
+
+                            <div>
+
+                                <div class="title-wrapper">
+                                    <h3 class="title-3">
+                                        <a href="#" class="card-title">Tonkatsilog</a>
+                                    </h3>
+
+                                    <span class="span title-2">₱130.00</span>
+                                </div>
+
+                                <p class="card-text label-1">
+                                    Breaded pork cutlet, served with garlic fried rice, and fried egg.&ensp; &emsp;&ensp; &emsp;&ensp; &emsp;
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="menu-card hover:card">
+                            <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                                <img src="../menu/chixsilog.jpg" width="100" height="100" loading="lazy" alt="Chixsilog" class="img-cover">
+                            </figure>
+                            <div>
+                                <div class="title-wrapper">
+                                    <h3 class="title-3">
+                                        <a href="#" class="card-title">Chixsilog</a>
+                                    </h3>
+                                    <span class="span title-2">₱130.00</span>
+                                </div>
+                                <p class="card-text label-1">
+                                    Crispy fried chicken served with savory garlic fried rice and fried egg.&emsp;&ensp;&emsp;&ensp;
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+                <!-- Right Side -->
+                <ul class="menu-column">
+                    <li>
+                        <div class="menu-card hover:card">
+                            <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                                <img src="../menu/mixsilog.jpg" width="100" height="100" loading="lazy" alt="Mixsilog" class="img-cover">
+                            </figure>
+                            <div>
+                                <div class="title-wrapper">
+                                    <h3 class="title-3">
+                                        <a href="#" class="card-title">Mixsilog</a>
+                                    </h3>
+                                    <span class="span title-2">₱120.00</span>
+                                </div>
+                                <p class="card-text label-1">
+                                    Combination of pork tocino, and tapa, garlic rice and fried egg.&ensp;&emsp;&ensp;
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="menu-card hover:card">
+                            <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                                <img src="../menu/tapsilog.jpg" width="100" height="100" loading="lazy" alt="Tapsilog" class="img-cover">
+                            </figure>
+                            <div>
+                                <div class="title-wrapper">
+                                    <h3 class="title-3">
+                                        <a href="#" class="card-title">Tapsilog</a>
+                                    </h3>
+                                    <span class="span title-2">₱100.00</span>
+                                </div>
+                                <p class="card-text label-1">
+                                    Marinated beef tapa, garlic fried rice, and a sunny-side-up egg.&ensp; &emsp;&ensp;
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="menu-card hover:card">
+
+                            <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                                <img src="../menu/longsilog.jpg" width="100" height="100" loading="lazy" alt="Longsilog"
+                                     class="img-cover">
+                            </figure>
+
+                            <div>
+
+                                <div class="title-wrapper">
+                                    <h3 class="title-3">
+                                        <a href="#" class="card-title">Longsilog</a>
+                                    </h3>
+
+                                    <span class="span title-2">$100.00</span>
+                                </div>
+
+                                <p class="card-text label-1">
+                                    Sweet and savory Filipino sausage, garlic fried rice, and a fried egg.
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="menu-card hover:card">
+                            <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                                <img src="../menu/spamsilog.jpg" width="100" height="100" loading="lazy" alt="Spamsilog" class="img-cover">
+                            </figure>
+                            <div>
+                                <div class="title-wrapper">
+                                    <h3 class="title-3">
+                                        <a href="#" class="card-title">Spamsilog</a>
+                                    </h3>
+                                    <span class="span title-2">₱75.00</span>
+                                </div>
+                                <p class="card-text label-1">
+                                    Fried Spam slices, garlic fried rice, and a perfectly fried egg.&ensp; &emsp;&ensp; &emsp;
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <!-- Snacks Section -->
+            <div class="menu-columns">
+                <div class="section-title-wrapper">
+                    <h3 class="headline-2 section-title text-center">Snacks&ensp; &emsp;&ensp; &emsp;&ensp; &emsp;</h3>
+                </div>
+                <ul class="menu-column">
+                    <li>
+                        <div class="menu-card hover:card">
+                            <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                                <img src="../menu/carbonara.jpg" width="100" height="100" loading="lazy" alt="Carbonara" class="img-cover">
+                            </figure>
+                            <div>
+                                <div class="title-wrapper">
+                                    <h3 class="title-3">
+                                        <a href="#" class="card-title">Carbonara</a>
+                                    </h3>
+                                    <span class="badge label-1">Best Seller</span>
+                                    <span class="span title-2">₱85.00</span>
+                                </div>
+                                <p class="card-text label-1">
+                                    Creamy pasta dish with pancetta, Parmesan cheese, and black pepper.&ensp; &emsp;&ensp; &emsp;
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="menu-card hover:card">
+                            <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                                <img src="../menu/spaghetti.jpg" width="100" height="100" loading="lazy" alt="Spaghetti" class="img-cover">
+                            </figure>
+                            <div>
+                                <div class="title-wrapper">
+                                    <h3 class="title-3">
+                                        <a href="#" class="card-title">Spaghetti</a>
+                                    </h3>
+                                    <span class="span title-2">₱85.00</span>
+                                </div>
+                                <p class="card-text label-1">
+                                    Classic pasta dish with tomato sauce, ground meat, and fresh herbs. <a class="blank-card-text">wasdwasd</a>
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="menu-card hover:card">
+
+                            <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                                <img src="../menu/pancit-guisado.jpg" width="100" height="100" loading="lazy" alt="Pancit Guisado"
+                                     class="img-cover">
+                            </figure>
+
+                            <div>
+
+                                <div class="title-wrapper">
+                                    <h3 class="title-3">
+                                        <a href="#" class="card-title">Pancit Guisado</a>
+                                    </h3>
+
+                                    <span class="span title-2">₱85.00</span>
+                                </div>
+
+                                <p class="card-text label-1">
+                                    Stir-fried noodles with mixed vegetables, meat, and a savory soy-based sauce.
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="menu-card hover:card">
+                            <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                                <img src="../menu/bihon.jpg" width="100" height="100" loading="lazy" alt="Bihon" class="img-cover">
+                            </figure>
+                            <div>
+                                <div class="title-wrapper">
+                                    <h3 class="title-3">
+                                        <a href="#" class="card-title">Bihon</a>
+                                    </h3>
+                                    <span class="span title-2">₱85.00</span>
+                                </div>
+                                <p class="card-text label-1">
+                                    Stir-fried rice noodles with vegetables, meat, and a flavorful soy-based sauce.
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+                <!-- Right Side -->
+                <ul class="menu-column">
+                    <li>
+                        <div class="menu-card hover:card">
+                            <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                                <img src="../menu/ham-egg-sandwich.jpg" width="100" height="100" loading="lazy" alt="Ham & Egg Sandwich" class="img-cover">
+                            </figure>
+                            <div>
+                                <div class="title-wrapper">
+                                    <h3 class="title-3">
+                                        <a href="#" class="card-title">Ham & Egg Sandwich</a>
+                                    </h3>
+                                    <span class="span title-2">₱75.00</span>
+                                </div>
+                                <p class="card-text label-1">
+                                    Sliced ham, a fried egg, lettuce, tomato, and mayo on toasted bread. <a class="blank-card-text">w</a>
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="menu-card hover:card">
+                            <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                                <img src="../menu/french-toast.jpg" width="100" height="100" loading="lazy" alt="Cheese French Toast" class="img-cover">
+                            </figure>
+                            <div>
+                                <div class="title-wrapper">
+                                    <h3 class="title-3">
+                                        <a href="#" class="card-title">Cheese French Toast</a>
+                                    </h3>
+                                    <span class="span title-2">₱65.00</span>
+                                </div>
+                                <p class="card-text label-1">
+                                    Bread dipped in egg batter and layered with melted cheese. <a class="blank-card-text">wasdwasd.</a>
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="menu-card hover:card">
+
+                            <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                                <img src="../menu/korean-sandwich.jpg" width="100" height="100" loading="lazy" alt="Korean Sandwich"
+                                     class="img-cover">
+                            </figure>
+
+                            <div>
+
+                                <div class="title-wrapper">
+                                    <h3 class="title-3">
+                                        <a href="#" class="card-title">Korean Sandwich</a>
+                                    </h3>
+
+                                    <span class="span title-2">₱65.00</span>
+                                </div>
+
+                                <p class="card-text label-1">
+                                    Marinated bulgogi beef, vegetables, and spicy gochujang mayo. <a class="blank-card-text">wasd.</a>
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="menu-card hover:card">
+                            <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                                <img src="../menu/potato-fries.jpg" width="100" height="100" loading="lazy" alt="Potato Fries" class="img-cover">
+                            </figure>
+                            <div>
+                                <div class="title-wrapper">
+                                    <h3 class="title-3">
+                                        <a href="#" class="card-title">Potato Fries</a>
+                                    </h3>
+                                    <span class="span title-2">₱50.00</span>
+                                </div>
+                                <p class="card-text label-1">
+                                    Crispy golden fries made from fresh potatoes (your choice of flavor.) <a class="blank-card-text">w</a>
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <!-- Specialty Menu Section -->
+            <div class="menu-columns">
+                <div class="section-title-wrapper">
+                    <h3 class="headline-2 section-title text-center">Specialty &ensp; &emsp;&ensp; &emsp;&ensp; &emsp; </h3>
+                </div>
+                <ul class="menu-column">
+                    <li>
+                        <div class="menu-card hover:card">
+                            <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                                <img src="../menu/wings.jpg" width="100" height="100" loading="lazy" alt="Chicken Wings" class="img-cover">
+                            </figure>
+                            <div>
+                                <div class="title-wrapper">
+                                    <h3 class="title-3">
+                                        <a href="#" class="card-title">Chicken Wings</a>
+                                    </h3>
+                                    <span class="badge label-1">Best Seller</span>
+                                    <span class="span title-2">₱160.00</span>
+                                </div>
+                                <p class="card-text label-1">
+                                    Enjoy our chicken wings trio with three delicious flavors. <a class="blank-card-text">wasdwasdwasdwasd</a>
+                            </div>
+                                    </div>
+                    </li>
+                    <li>
+                        <div class="menu-card hover:card">
+                            <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                                <img src="../menu/cordon-bleau.jpg" width="100" height="100" loading="lazy" alt="Cordon Bleau" class="img-cover">
+                            </figure>
+                            <div>
+                                <div class="title-wrapper">
+                                    <h3 class="title-3">
+                                        <a href="#" class="card-title">Cordon Bleau</a>
+                                    </h3>
+                                    <span class="span title-2">₱160.00</span>
+                                </div>
+                                <p class="card-text label-1">
+                                    Fried chicken or pork cutlet stuffed with ham and cheese. <a class="blank-card-text">wasdwasdwasdwasd</a>
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="menu-card hover:card">
+
+                            <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                                <img src="../menu/buttered-shrimp.jpg" width="100" height="100" loading="lazy" alt="Buttered Shrimp"
+                                     class="img-cover">
+                            </figure>
+
+                            <div>
+
+                                <div class="title-wrapper">
+                                    <h3 class="title-3">
+                                        <a href="#" class="card-title">Buttered Shrimp</a>
+                                    </h3>
+
+                                    <span class="span title-2">₱160.00</span>
+                                </div>
+
+                                <p class="card-text label-1">
+                                    Succulent shrimp sautéed in butter, garlic, and a hint of lemon. <a class="blank-card-text">wasdwasdwasd</a>
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+                <!-- Right Side -->
+                <ul class="menu-column">
+                    <li>
+                        <div class="menu-card hover:card">
+                            <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                                <img src="../menu/chopsuey.jpg" width="100" height="100" loading="lazy" alt="Chopsuey" class="img-cover">
+                            </figure>
+                            <div>
+                                <div class="title-wrapper">
+                                    <h3 class="title-3">
+                                        <a href="#" class="card-title">Chopsuey</a>
+                                    </h3>
+                                    <span class="span title-2">₱150.00</span>
+                                </div>
+                                <p class="card-text label-1">
+                                    Stir-fried cabbage, carrots, bell peppers, and snap peas, and meat.<a class="blank-card-text">wasdw</a>
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="menu-card hover:card">
+                            <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                                <img src="../menu/sisig.jpg" width="100" height="100" loading="lazy" alt="Sizzling Sisig" class="img-cover">
+                            </figure>
+                            <div>
+                                <div class="title-wrapper">
+                                    <h3 class="title-3">
+                                        <a href="#" class="card-title">Sizzling Sisig</a>
+                                    </h3>
+                                    <span class="span title-2">₱110.00</span>
+                                </div>
+                                <p class="card-text label-1">
+                                    Chopped pork cheeks and liver,with onions, and chili peppers. <a class="blank-card-text">wasdwasd</a>
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="menu-card hover:card">
+
+                            <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                                <img src="../menu/lumpiang-shanghai.jpg" width="100" height="100" loading="lazy" alt="Lumpiang Shanghai"
+                                     class="img-cover">
+                            </figure>
+
+                            <div>
+
+                                <div class="title-wrapper">
+                                    <h3 class="title-3">
+                                        <a href="#" class="card-title">Lumpiang Shanghai</a>
+                                    </h3>
+
+                                    <span class="span title-2">₱110.00</span>
+                                </div>
+
+                                <p class="card-text label-1">
+                                    Fried spring rolls filled with seasoned ground pork and vegetables. <a class="blank-card-text">wasd</a>
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <!-- Sweet Treats Section -->
+            <div class="menu-columns">
+                <div class="section-title-wrapper">
+                    <h3 class="headline-2 section-title text-center">Sweet Treats<a>&emsp;&ensp;&emsp;&ensp;&emsp;&ensp;</a></h3>
+                </div>
+                <ul class="menu-column">
+                    <li>
+                        <div class="menu-card hover:card">
+                            <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                                <img src="../menu/mais-con-yelo.jpg" width="100" height="100" loading="lazy" alt="Mais Con Yelo" class="img-cover">
+                            </figure>
+                            <div>
+                                <div class="title-wrapper">
+                                    <h3 class="title-3">
+                                        <a href="#" class="card-title">Mais Con Yelo</a>
+                                    </h3>
+                                    <span class="badge label-1">Best Seller</span>
+                                    <span class="span title-2">₱60.00</span>
+                                </div>
+                                <p class="card-text label-1">
+                                    Sweet corn kernels, shaved ice, and evaporated milk. <a class="blank-card-text">wasdwasdawsdwawasd</a>
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="menu-card hover:card">
+                            <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                                <img src="../menu/saba-con-yelo.jpg" width="100" height="100" loading="lazy" alt="Saba Con Yelo" class="img-cover">
+                            </figure>
+                            <div>
+                                <div class="title-wrapper">
+                                    <h3 class="title-3">
+                                        <a href="#" class="card-title">Saba Con Yelo</a>
+                                    </h3>
+                                    <span class="span title-2">₱60.00</span>
+                                </div>
+                                <p class="card-text label-1">
+                                    Boiled saba bananas, shaved ice, and evaporated milk. <a class="blank-card-text">wasdwasdawsdwawasd</a>
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+                <!-- Right Side -->
+                <ul class="menu-column">
+                    <li>
+                        <div class="menu-card hover:card">
+                            <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                                <img src="../menu/mais-con-quezo.jpg" width="100" height="100" loading="lazy" alt="Mais Con Quezo" class="img-cover">
+                            </figure>
+                            <div>
+                                <div class="title-wrapper">
+                                    <h3 class="title-3">
+                                        <a href="#" class="card-title">Mais Con Quezo</a>
+                                    </h3>
+                                    <span class="span title-2">₱75.00</span>
+                                </div>
+                                <p class="card-text label-1">
+                                    Sweet corn kernels mixed with cheese, milk,shaved ice,and ice cream. <a class="blank-card-text">w</a>
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="menu-card hover:card">
+                            <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                                <img src="../menu/saba-con-ice-cream.jpg" width="100" height="100" loading="lazy" alt="Saba Con Ice Cream" class="img-cover">
+                            </figure>
+                            <div>
+                                <div class="title-wrapper">
+                                    <h3 class="title-3">
+                                        <a href="#" class="card-title">Saba Con Ice Cream</a>
+                                    </h3>
+                                    <span class="span title-2">₱75.00</span>
+                                </div>
+                                <p class="card-text label-1">
+                                    Boiled saba bananas served with a scoop of creamy ice cream. <a class="blank-card-text">wasdwasd</a>
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <!-- Beverages Section -->
+            <div class="menu-columns">
+                <div class="section-title-wrapper">
+                    <h3 class="headline-2 section-title text-center">Beverage &ensp; &emsp;&ensp; &emsp; &ensp;&emsp;&ensp;&emsp;</h3>
+                </div>
+                <ul class="menu-column">
+                    <li>
+                        <div class="menu-card hover:card">
+                            <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                                <img src="../menu/cheese-shake.jpg" width="100" height="100" loading="lazy" alt="Cheese and Corn Shake" class="img-cover">
+                            </figure>
+                            <div>
+                                <div class="title-wrapper">
+                                    <h3 class="title-3">
+                                        <a href="#" class="card-title">Cheese and Corn Shake</a>
+                                    </h3>
+                                    <span class="badge label-1">Best Seller</span>
+                                    <span class="span title-2">₱70.00</span>
+                                </div>
+                                <p class="card-text label-1">
+                                    Sweet corn kernels with creamy milk and cheese. <a class="blank-card-text">wasdwasdwasdwasdwasdwa</a>
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="menu-card hover:card">
+                            <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                                <img src="../menu/coffee-banana-shake.jpg" width="100" height="100" loading="lazy" alt="Coffee and Banana Shake" class="img-cover">
+                            </figure>
+                            <div>
+                                <div class="title-wrapper">
+                                    <h3 class="title-3">
+                                        <a href="#" class="card-title">Coffee and Banana Shake</a>
+                                    </h3>
+                                    <span class="span title-2">₱70.00</span>
+                                </div>
+                                <p class="card-text label-1">
+                                    Blended smooth coffee with ripe bananas, milk, and ice. <a class="blank-card-text">wasdwasdwasdwasd</a>
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+                <!-- Right Side -->
+                <ul class="menu-column">
+                    <li>
+                        <div class="menu-card hover:card">
+                            <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                                <img src="../menu/mango-shake.jpg" width="100" height="100" loading="lazy" alt="Mango Shake" class="img-cover">
+                            </figure>
+                            <div>
+                                <div class="title-wrapper">
+                                    <h3 class="title-3">
+                                        <a href="#" class="card-title">Mango Shake</a>
+                                    </h3>
+                                    <span class="span title-2">₱70.00</span>
+                                </div>
+                                <p class="card-text label-1">
+                                    Tropical beverage made with ripe mangoes blended with milk, and ice.<a class="blank-card-text">wasd</a>
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="menu-card hover:card">
+                            <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                                <img src="../menu/milo-shake.jpg" width="100" height="100" loading="lazy" alt="Milo Shake" class="img-cover">
+                            </figure>
+                            <div>
+                                <div class="title-wrapper">
+                                    <h3 class="title-3">
+                                        <a href="#" class="card-title">Milo Shake</a>
+                                    </h3>
+                                    <span class="span title-2">₱70.00</span>
+                                </div>
+                                <p class="card-text label-1">
+                                    Energizing beverage made with Milo powder blended with milk, ice. <a class="blank-card-text">wasdwa</a>
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <img src="../menu/bg-menu1.png" width="921" height="1036" loading="lazy" alt="shape" class="shape shape-2 move-anim">
+        <img src="../menu/bg-menu2.png" width="343" height="345" loading="lazy" alt="shape" class="shape shape-3 move-anim" />
+    </section>
+
+
+
+    <!--scroll top--->
+    <a href="#" class="scroll">
+        <i class='bx bx-up-arrow-alt'></i>
+    </a>
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!----link to js--->
+    <script src="../css/script.js"></script>
+</body>
+</html>
