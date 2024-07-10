@@ -22,25 +22,25 @@ To begin exploring our website, click the link below:
 ## Directory Structure
 
 The project directory is organized as follows:
+```text
 project-root/
 ├── assets/
-│ ├── css/
-│ │ ├── aboutstyles.css
-│ │ ├── loginstyles.css
-│ │ ├── menustyles.css
-│ │ ├── styles.css
-│ ├── home/
-│ │ └── [all home images]
-│ ├── html/
-│ │ ├── about.html
-│ │ ├── home.html
-│ │ ├── menu.html
-│ │ └── register.html
-│ ├── menu/
-│ │ └── [all menu images]
+│   ├── css/
+│   │   ├── aboutstyles.css
+│   │   ├── loginstyles.css
+│   │   ├── menustyles.css
+│   │   ├── styles.css
+│   ├── home/
+│   │   └── [all home images]
+│   ├── html/
+│   │   ├── about.html
+│   │   ├── home.html
+│   │   ├── menu.html
+│   │   └── register.html
+│   ├── menu/
+│   │   └── [all menu images]
 ├── login.html
 └── script.js
-
 
 ## Note
 
